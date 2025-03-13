@@ -15,6 +15,11 @@ public class WebController {
         return "login.html";
     }
 
+    @GetMapping("/register")
+    public String getRegister() {
+        return "register.html";
+    }
+
     @GetMapping("/game-menu")
     public String getGameMenu() {
         return "game-menu.html";
